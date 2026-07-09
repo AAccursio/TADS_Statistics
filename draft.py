@@ -1,3 +1,5 @@
-from functions.plot import plot_history
+from functions.backtest import ma_strategy
 
-plot_history('BBAS3.SA')
+ma_strategy(
+    ticker = 'BTC-USD'
+)
